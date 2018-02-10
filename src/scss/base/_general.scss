@@ -1,0 +1,35 @@
+//@import "typography";
+// RITMO VERTICAL: Guias para el ajuste del texto predefinido para line-heigth de 24px
+
+
+html{
+  //background-image: linear-gradient(#fff 95%, #999 95%);
+  //background-size: 100% $line-height;
+}
+h1{
+  @include t1;
+  font-family: $ftOswald;
+}
+h2{
+  @include t2;
+  font-family: $ftOswald;
+}
+h3{
+  @include t3;
+  font-family: $ftOswald;
+}
+h4{
+  @include normal;
+  font-family: $ftOswald;
+  font-weight: 600
+}
+
+p{
+  @include normal;
+  font-family: $ftroboto;
+}
+a{
+  @include normal;
+  font-family: $ftroboto
+
+}

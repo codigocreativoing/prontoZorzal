@@ -1,0 +1,7 @@
+mixin bannerContact(title, numbers, submit)
+  .bannContact
+    h4.bannContact-title #{title}
+    each item in numbers
+      p.bannContact-text #{item[0]}
+    input(type="button", value=`${submit}`)
+
