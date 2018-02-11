@@ -1,28 +1,18 @@
 body{
-  //background-color     : $primary;
-  display              : grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-.hero{
-  height: 100vh;
-  //background-color: $secundario;
-  @include gInicial;
-  grid-template-rows: 15% 40% 10% 25% 10%;
-  .bannContact{
-    //background-color: aqua;
-    grid-row: 1;
+  .hero{
+    display: grid;
+    grid-template-rows: 60% 30% 10%;
+    .encabezado{
+      // background-color: aqua;
+      grid-row: 1 / 2;
+    }
+    .logo{
+      // background-color: burlywood;
+      grid-row: 2 / 3;
+    }
+    .url{
+      // background-color: chocolate;
+      grid-row: 3 / -1;
+    }
   }
-  .headerText{
-    //background-color: azure;
-    //grid-row: 3;
-  }
-  .headerSlogan{
-    //background-color: aliceblue;
-  }
-
-}
-.mainContainer{
-  background-color: darkgoldenrod;
-  @include gInicial;
-  height: 100vh;
 }

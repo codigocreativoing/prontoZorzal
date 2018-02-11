@@ -26,16 +26,16 @@ $ftroboto: 'Roboto', sans-serif;
 $ftOswald: 'Oswald', sans-serif;
 
 // Variables de color
-$color     : rgb(89, 89, 99);
-$secundario: rgb(75, 75, 108);
+$color     : #F58634;
+$secundario: #D7CC75;
 $resalte   : #91AE45;
 $clAlterno : #8CA22A;
 
 // variables de media query
-$xsScreen:470px;
-$smallScreen : 520px;
-$mediumScreen: 750px;
-$wideScreen  : 1024px;
-$largeScreen : 1280px;
-$xlScreen: 1366px;
-$opScreen:1480px;
+$xsScreen    : 320px; //iphone retina
+$smallScreen : 400px; //telefonos 480
+$mediumScreen: 700px; //tablets 760
+$wideScreen  : 990px; //escritorio - pequeño
+$largeScreen : 1200px; //escritorio normal
+$xlScreen    : 1366px;  //escritorio portatil
+$opScreen    : 1480px; //tv fullHD
